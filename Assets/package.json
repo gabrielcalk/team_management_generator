@@ -8,5 +8,9 @@
   },
   "author": "Gabriel Cavalcante Causin",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "nodemon": "^2.0.13"
+  }
 }
