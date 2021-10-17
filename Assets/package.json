@@ -1,0 +1,12 @@
+{
+  "name": "team_management_generator",
+  "version": "1.0.0",
+  "description": "This is a project that you can use to generate one HTML with all the persons in your team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Cavalcante Causin",
+  "license": "ISC",
+  "type": "module"
+}
