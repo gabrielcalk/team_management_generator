@@ -6,8 +6,6 @@ import fs from 'fs'
 import Manager from './manager.js'
 import Engineer from './engineer.js'
 import Intern from './intern.js'
-import { finished } from 'stream'
-import { notDeepEqual } from 'assert'
 
 // Adding 3 arrays that will contain the manager, engenieer team, and intern group
 const manager_team = []
