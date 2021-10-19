@@ -1,4 +1,4 @@
-import Employee from "./employee.js"
+const Employee = require('./employee')
 
 // Engineer class
 class Engineer extends Employee{
@@ -8,5 +8,5 @@ class Engineer extends Employee{
     }
 }
 
-export default Engineer
+module.exports = Engineer
 

@@ -1,11 +1,11 @@
 // Importing inquirer and fs library 
-import inquirer from 'inquirer'
-import fs from 'fs'
+const inquirer = require('inquirer')
+const fs = require('fs')
 
 // Importing the Class: Manager, Engineer and Intern to this file
-import Manager from './manager.js'
-import Engineer from './engineer.js'
-import Intern from './intern.js'
+const Manager = require('./manager')
+const Engineer = require('./engineer')
+const Intern = require('./intern')
 
 // Adding 3 arrays that will contain the manager, engenieer team, and intern group
 const manager_team = []
@@ -187,7 +187,7 @@ const create_page = () => {
 </body>
 </html>
 `
-// Creating the htmt
+// Creating the html
     fs.writeFile('../../index.html', html_page, (err) =>{
         if (err){
             throw err;
@@ -236,3 +236,5 @@ const add_page_int = (int_team) => {
     arrayTeam_int.push(html_int)
     }
 }
+
+module.exports = {create_page, add_page_eng, add_page_int}

@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "team_management_generator",
   "version": "1.0.0",
   "description": "This is a project that you can use to generate one HTML with all the persons in your team",

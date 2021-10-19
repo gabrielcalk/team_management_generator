@@ -1,4 +1,4 @@
-import Employee from "./employee.js"
+const Employee = require('./employee')
 
 // Manager class
 class Manager extends Employee{
@@ -9,4 +9,4 @@ class Manager extends Employee{
 }
 
 
-export default Manager
+module.exports = Manager
